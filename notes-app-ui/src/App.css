@@ -82,3 +82,20 @@ input {
   cursor: pointer;
 
 }
+
+.edit-buttons {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 5px;
+}
+
+.edit-buttons button {
+  flex: 1;
+}
+
+.edit-buttons button:last-of-type {
+  background-color: rgb(220, 89, 89);
+  color: white;
+}
+
+
